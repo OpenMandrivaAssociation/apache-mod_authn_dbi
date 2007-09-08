@@ -6,7 +6,7 @@
 Summary:	Provides Authentication against an SQL database backend
 Name:		apache-%{mod_name}
 Version:	0.9.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		System/Servers
 License:	GPL
 URL:		http://mod-auth.sourceforge.net/
