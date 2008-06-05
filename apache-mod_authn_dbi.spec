@@ -57,7 +57,7 @@ find . -type f|xargs file|grep 'text'|cut -d: -f1|xargs perl -p -i -e 's/\r//'
 %build
 export CPPFLAGS="`apr-1-config --cppflags` `apr-1-config --includes`"
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --with-dbi=%{_prefix} \
     --with-dbi-libs=%{_libdir} \
     --with-dbi-include=%{_includedir} \
