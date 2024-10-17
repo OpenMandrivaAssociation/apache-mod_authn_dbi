@@ -9,7 +9,7 @@ Version:	0.9.0
 Release:	%mkrel 13
 Group:		System/Servers
 License:	GPL
-URL:		http://mod-auth.sourceforge.net/
+URL:		https://mod-auth.sourceforge.net/
 Source0:	http://prdownloads.sourceforge.net/mod-auth/%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Patch0:		mod_authn_dbi-0.9.0-module.diff
