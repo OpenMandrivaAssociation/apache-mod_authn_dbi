@@ -20,6 +20,11 @@ Requires(pre):	apache-conf >= 2.2.0
 Requires(pre):	apache >= 2.2.0
 Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	file
 BuildRequires:	libdbi-devel >= 0.8.1
